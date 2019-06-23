@@ -2,13 +2,18 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
   <title>17y-plus</title>
 </head>
 <body>
   <h1>生年月日を入力してボタンを押してください。<br>
     年齢を「１７歳とNか月」に変換します。</h1>
-  <input type="date" id="calendar" max="2100-12-31">
-  <button type="button" onclick="conv17N()">年齢を17歳とする</button>
+  <input type="date" id="calendar" max="2100-12-31" min="1900-01-01">
+  <button type="button" class="button" onclick="conv17N()">年齢を17歳にします</button>
+  <p id="showDOB"></p>
+  <p id="showdiffDate"></p>
+  <p id="show17yNday"></p>
+  <p id="show17yNmonth"></p>
   <script type="text/javascript" src="conv17N.js"></script>
 </body>
 </html>
