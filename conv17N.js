@@ -11,7 +11,6 @@ function conv17N() {
   let diffDate = diff / (1000 * 60 * 60 * 24);
   showdiffDate.textContent = "生まれてから今日まで " + Math.floor(diffDate) + " 日です";
   let conv17yNday = Math.floor(diffDate) - (17 * 365);
-  show17yNday.textContent = "17歳と" + conv17yNday + "日です";
   let conv17yNmonth = conv17yNday/30;
   show17yNmonth.textContent = "17歳と" + Math.floor(conv17yNmonth) + "か月です";
 }

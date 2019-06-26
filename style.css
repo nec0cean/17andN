@@ -26,8 +26,7 @@ h1 {
 }
 
 #calendar {
-  width: 200px;
-  height: 50px;
+  padding: 10px 10px 10px 50px;
   position: absolute;
   top: 40%;
   -webkit-transform: translateY(-40%);
@@ -40,9 +39,16 @@ h1 {
   height: 50px;
   border-radius: 25px;
   font-size: 3rem;
+  outline: none;
   margin-top: 20px;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+#showDOB, #showdiffDate, #show17yNmonth {
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
