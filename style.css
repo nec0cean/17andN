@@ -13,16 +13,36 @@ body {
   flex-direction: column;
   align-items: center;
   background: orange;
+  height: 600px;
+  position: relative;
+}
+
+h1 {
+  color: #333;
+  position: absolute;
+  top: 20%;
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 #calendar {
   width: 200px;
   height: 50px;
+  position: absolute;
+  top: 40%;
+  -webkit-transform: translateY(-40%);
+  transform: translateY(-40%);
 }
 
 .button {
-  width: 400px;
-  height: 100px;
-  border-radius: 4px;
+  background-color: #FFDAB9;
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
   font-size: 3rem;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
